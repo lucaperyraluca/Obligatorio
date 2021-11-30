@@ -17,7 +17,7 @@ except SystemExit as e:
  exit(20)
 
 #ruta al script en bash
-ej1_y_lista_parametros = ['/home/linux/Desktop/PRUEBASCARPETA/PRUEBA.sh']
+ej1_y_lista_parametros = ['/home/alumno/Escritorio/hola/Obligatorio/PRUEBA.sh']
 #agrego el parametro a la lista
 if args.recursive:
     ej1_y_lista_parametros.append("-r")
