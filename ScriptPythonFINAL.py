@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import subprocess
 from subprocess import Popen, PIPE
 import argparse
@@ -381,8 +379,6 @@ if args.filter != None and args.order == None:
         if letra == "d":
             claves.remove("tcon")
     if args.recursive == True:
-        print(otra_lista[len(otra_lista)-1])
-        print("==========================")
         linea_delfinal=otra_lista[len(otra_lista)-1]
         otra_lista.pop(len(otra_lista)-1)
         if len(delet) == 7:
