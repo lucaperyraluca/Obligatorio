@@ -18,7 +18,7 @@ except SystemExit as e:
  exit(25)
 
 #ruta al script en bash
-ej1_y_lista_parametros = ['/home/alumno/Escritorio/hola/Obligatorio/PRUEBA.sh']
+ej1_y_lista_parametros = ['/mnt/hgfs/ObligatorioPC/ScriptBashFinal.sh']
 
 
 #agrego el parametro -r a la lista que envio
